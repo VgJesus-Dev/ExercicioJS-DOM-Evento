@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios - JS Evento</title>
+
+    <script src="./contador-cliques/script.js"defer></script>
+</head>
+<body>
+
+    <h1>Contador de Cliques</h1>
+    <div id="clickCount">Número de cliques: </div>
+    <button onclick="adcionarClique()">Clique Aqui</button>
+   
+    <p> </p>
+
+    <button id="butAlert">Atenção, Clique aqui!</button>
+
+    <p> </p>
+
+    <input type="text" id="inputField" placeholder="Digite algo aqui">
+    <div id="message"></div>
+
+    <h1>Lista de Produtos</h1>
+    <ul id="productList">
+        <li class="produto" data-descricao="Sabor morango" data-preco="Preço: R$10,00">
+            <h3 class="titulo-produto">Produto 1</h3>
+            <div class="detalhe-produto" style="display: none;"></div>
+        </li>
+        <li class="produto" data-descricao="Sabor limão" data-preco="Preço: R$20,00">
+            <h3 class="titulo-produto">Produto 2</h3>
+            <div class="detalhe-produto" style="display: none;"></div>
+        </li>
+        <li class="produto" data-descricao="Sabor laranja" data-preco="Preço: R$30,00">
+            <h3 class="titulo-produto">Produto 3</h3>
+            <div class="detalhe-produto" style="display: none;"></div>
+        </li>
+    </ul>
+    
+</body>
+</html>
